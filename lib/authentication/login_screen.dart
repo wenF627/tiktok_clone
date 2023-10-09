@@ -54,14 +54,14 @@ class _LoginScreenState extends State<LoginScreen>
 
               Text(
                 "Glad to see you!",
-                style: GoogleFonts.acme(
+                style: GoogleFonts.akronim(
                   fontSize: 34,
-                  color: Colors.grey,
+                  color: Colors.white,
                 ),
               ),
 
               const SizedBox(
-                height: 30,
+                height: 50,
               ),
 
               //email input
@@ -77,7 +77,7 @@ class _LoginScreenState extends State<LoginScreen>
               ),
 
               const SizedBox(
-                height: 25,
+                height: 15,
               ),
 
               //password input
@@ -93,7 +93,7 @@ class _LoginScreenState extends State<LoginScreen>
               ),
 
               const SizedBox(
-                height: 30,
+                height: 20,
               ),
 
               //login button

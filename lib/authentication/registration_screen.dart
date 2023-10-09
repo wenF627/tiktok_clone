@@ -43,7 +43,7 @@ class _RegistrationScreenState extends State<RegistrationScreen>
 
               Text(
                 "Create Account",
-                style: GoogleFonts.acme(
+                style: GoogleFonts.abhayaLibre(
                   fontSize: 34,
                   color: Colors.grey,
                   fontWeight: FontWeight.bold,
@@ -52,7 +52,7 @@ class _RegistrationScreenState extends State<RegistrationScreen>
 
               Text(
                 "to get Started Now!",
-                style: GoogleFonts.acme(
+                style: GoogleFonts.abhayaLibre(
                   fontSize: 34,
                   color: Colors.grey,
                 ),
@@ -72,7 +72,7 @@ class _RegistrationScreenState extends State<RegistrationScreen>
                 child: const CircleAvatar(
                   radius: 80,
                   backgroundImage: AssetImage(
-                    "images/profile_avatar.jpg"
+                    "images/profile_avatar.png"
                   ),
                   backgroundColor: Colors.black,
                 ),
