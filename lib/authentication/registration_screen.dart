@@ -45,7 +45,7 @@ class _RegistrationScreenState extends State<RegistrationScreen>
                 "Create Account",
                 style: GoogleFonts.abhayaLibre(
                   fontSize: 34,
-                  color: Colors.grey,
+                  color: Colors.white,
                   fontWeight: FontWeight.bold,
                 ),
               ),
@@ -54,7 +54,7 @@ class _RegistrationScreenState extends State<RegistrationScreen>
                 "to get Started Now!",
                 style: GoogleFonts.abhayaLibre(
                   fontSize: 34,
-                  color: Colors.grey,
+                  color: Colors.white,
                 ),
               ),
 
@@ -70,11 +70,11 @@ class _RegistrationScreenState extends State<RegistrationScreen>
                   authenticationController.chooseImageFromGallery();
                 },
                 child: const CircleAvatar(
-                  radius: 80,
+                  radius: 100,
                   backgroundImage: AssetImage(
                     "images/profile_avatar.png"
                   ),
-                  backgroundColor: Colors.black,
+                  backgroundColor: Colors.white,
                 ),
               ),
 
@@ -95,7 +95,7 @@ class _RegistrationScreenState extends State<RegistrationScreen>
               ),
 
               const SizedBox(
-                height: 25,
+                height: 15,
               ),
 
               //email input
@@ -111,7 +111,7 @@ class _RegistrationScreenState extends State<RegistrationScreen>
               ),
 
               const SizedBox(
-                height: 25,
+                height: 15,
               ),
 
               //password input
@@ -127,7 +127,7 @@ class _RegistrationScreenState extends State<RegistrationScreen>
               ),
 
               const SizedBox(
-                height: 30,
+                height: 20,
               ),
 
               //login button
